@@ -1,0 +1,48 @@
+{
+  "last_sch_text_sim_command": "",
+  "tabs": [
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 1u 20m",
+        ".save all",
+        ".probe alli",
+        ".kicad esavenone"
+      ],
+      "dottedSecondary": false,
+      "legend": {
+        "x": 646,
+        "y": 833
+      },
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/in_1)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/in_2)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/out)",
+          "trace_type": 257
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [
+    "V(/in_1) - V(/in_2)"
+  ],
+  "version": 6
+}
