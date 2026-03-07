@@ -4,11 +4,10 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 1u 5m",
-        ".kicad adjustpaths",
+        ".tran 1u 20m",
         ".save all",
         ".probe alli",
-        ".probe allp"
+        ".kicad esavenone"
       ],
       "dottedSecondary": true,
       "margins": {
@@ -21,23 +20,18 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(152, 78, 163)",
-          "signal": "V(/out_inv)",
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(/fb)",
           "trace_type": 257
         },
         {
           "color": "rgb(228, 26, 28)",
-          "signal": "V(/out_non_inv)",
+          "signal": "V(/hyst)",
           "trace_type": 257
         },
         {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(Net-_U1-+_)",
-          "trace_type": 257
-        },
-        {
-          "color": "rgb(77, 175, 74)",
-          "signal": "V(Net-_U1--_)",
+          "color": "rgb(166, 86, 40)",
+          "signal": "V(/in)",
           "trace_type": 257
         }
       ]

@@ -1,0 +1,56 @@
+{
+  "last_sch_text_sim_command": "",
+  "tabs": [
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 1u 25m",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(166, 86, 40)",
+          "signal": "V(+15V)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(/in+)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "V(/in_2)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "cursor1": {
+            "position": 0.009549356223175966,
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~V"
+          },
+          "signal": "V(/out)",
+          "trace_type": 257
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 6
+}
